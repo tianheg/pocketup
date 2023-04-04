@@ -44,6 +44,9 @@ jobs:
 
       - name: Start backup
         run: node index.js
+        env:
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Commit files
         run: |
