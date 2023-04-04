@@ -3,3 +3,8 @@
 #+BEGIN_QUOTE
 Save articles in Pocket to GitHub
 #+END_QUOTE
+
+1. Get request token
+2. Click authorize URL to install Pocketup
+3. Get access token
+4. Get articles list
