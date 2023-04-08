@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 // Set up the Pocket API endpoint URL and parameters
-const apiUrl = 'http://getpocket.com/v3/get';
+const apiUrl = 'https://getpocket.com/v3/get';
 
 // Make a request to the Pocket API
 axios
